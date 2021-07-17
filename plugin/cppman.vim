@@ -361,7 +361,7 @@ function! cppman#display(mods, section, page)
 	if get(g:, 'cppman_no_keymaps', 0) == 0
 		call s:setup_keymaps()
 	endif
-	exec "normal \<c-g>"
+	"exec "normal \<c-g>"
 endfunc
 
 
